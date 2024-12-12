@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title></title>
+</head>
+   <style>
+      body{
+         background: #616ACA;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         min-height: 100vh;
+         font-size: 29px;
+      }
+      span{
+         color: orange;
+      }
+      h1{
+         color: white;
+      }
+   </style>
+<body>
+    <div>
+       <h1>I'm <span class="aut-type"></span></h1>
+    </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     
+     <script>
+        const typed = new Typed(".aut-type",{
+           strings: ["coding","mouse","YouTube"], 
+           typeSpeech: 150,
+           backSpeed: 150,
+           loop: true
+        })
+     </script>
+</body>
+
+</html>
